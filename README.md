@@ -4,9 +4,6 @@ A simple **QR Code-based Attendance Management System** built using **Django**.
 
 Teachers can generate a QR code for a class and subject. Students scan the QR code and mark their attendance.
 
-🌐 **Live Demo:**  
-https://qr-code-attendance-system-l04f.onrender.com/
-
 💻 **GitHub:**  
 https://github.com/kalevaishnavi04/QRCODE-Attendance-System
 
@@ -43,6 +40,7 @@ Student Validation
 Check Duplicate Attendance
      ↓
 Attendance Recorded
+
 ⭐ Key Features
 👨‍🏫 Teacher Login & Registration
 📱 QR Code Attendance
@@ -52,6 +50,7 @@ Attendance Recorded
 📊 Attendance statistics
 📥 Excel attendance report
 📱 Mobile QR scanning
+
 🛠️ Technologies Used
 Python
 Django
@@ -64,6 +63,7 @@ OpenPyXL
 Gunicorn
 WhiteNoise
 Render
+
 📂 Project Structure
 QRCODE-Attendance-System/
 │
@@ -77,6 +77,7 @@ QRCODE-Attendance-System/
 │
 ├── README.md
 └── .gitignore
+
 🚀 Installation
 
 Clone the repository:
@@ -142,6 +143,7 @@ Attendance notifications
 Monthly attendance reports
 PDF reports
 Better mobile UI
+
 👩‍💻 Author
 
 Vaishnavi Kale
