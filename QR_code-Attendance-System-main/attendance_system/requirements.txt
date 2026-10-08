@@ -1,0 +1,8 @@
+Django==5.1.7
+qrcode
+Pillow
+openpyxl
+gunicorn
+whitenoise
+dj-database-url
+psycopg2-binary

@@ -1,0 +1,21 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Attendance success{% endblock %}
+
+{% block content %}
+<div class="container mt-5" style="max-width: 500px;">
+  <div class="card shadow-sm border-success">
+    <div class="card-body text-center">
+      <div class="display-4 text-success mb-2">&#10004;</div>
+      <h4 class="text-success">Attendance Marked!</h4>
+      {% if student %}
+        <hr>
+        <p class="mb-1"><strong>Name:</strong> {{ student.name }}</p>
+        <p class="mb-1"><strong>Roll No.:</strong> {{ student.roll_number }}</p>
+        <p class="mb-1"><strong>Class:</strong> {{ session.class_year.name }}</p>
+        <p class="mb-0"><strong>Subject:</strong> {{ session.subject.name }}</p>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% endblock %}
