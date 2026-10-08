@@ -86,55 +86,34 @@ git clone https://github.com/kalevaishnavi04/QRCODE-Attendance-System.git
 
 Go inside the project:
 
-cd QRCODE-Attendance-System
+For your Django QR Attendance project, use these commands:
+
+🖥️ Run locally
 cd QR_code-Attendance-System-main
 cd attendance_system
 
-Create virtual environment:
-
-python -m venv venv
-
-Activate it on Windows:
-
+Activate virtual environment:
+Windows:
 venv\Scripts\activate
 
 Install requirements:
-
 python -m pip install -r requirements.txt
 
 Run migrations:
-
 python manage.py migrate
 
-Run the application:
-
+Run the project:
 python manage.py runserver
 
-Open:
-
+Open in browser:
 http://127.0.0.1:8000/
-🔑 Demo Login
-Username: teacher
-Password: teacher123
-📱 Mobile Testing
 
-To scan the QR code using a mobile phone:
-
+📱 For mobile QR testing
 python manage.py runserver 0.0.0.0:8000
 
-Open the laptop's IP address on the mobile, for example:
+Then mobile browser:
 
-http://10.69.232.1:8000/
-
-Both laptop and mobile should be connected to the same Wi-Fi.
-
-🚀 Deployment
-
-The project is deployed on Render.
-
-Live URL:
-https://qr-code-attendance-system-l04f.onrender.com/
-
+http://YOUR-LAN-IP:8000/
 🔮 Future Improvements
 Student login
 Admin dashboard
